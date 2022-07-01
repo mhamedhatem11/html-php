@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('./images/welb.jpg');
+    
+    
+}
+html ::-webkit-scrollbar{
+    width: 13px;
+}
+html ::-webkit-scrollbar-track{
+    background-color: rgb(21, 21, 21);
+}
+html ::-webkit-scrollbar-thumb{
+background: linear-gradient(red, blue);
+
+}
+.mhamed img{
+width: 200px;
+height: 260px;
+transition: 1s;
+margin-top: 15px;
+}
+.mhamed img:hover{
+    transform:scale(1.04);
+}
+
+img{
+    max-width: 100%;
+    overflow: hidden;
+}
+.hedaer img{
+    
+    height: 350px;
+    width: 100%;
+}
+.mhamed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.bac{
+    background-color: wheat;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+

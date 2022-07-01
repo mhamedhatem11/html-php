@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(54, 52, 52);
+}
+html ::-webkit-scrollbar{
+    width: 5px;
+}
+h1{
+    color:rgb(190, 47, 47);
+}
+
+.main .container{
+    margin-top: 500px;
+}
